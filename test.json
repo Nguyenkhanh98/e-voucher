@@ -1,0 +1,1401 @@
+@ingestionTime	
+1684644414942
+@log	
+132383835191:web_backend_booking
+@logStream	
+output
+@message	
+2023-05-21T11: 46: 53.563 +07: 00: APP INFO 2023-05-21T04: 46: 53.563Z Service: INTELISYS NEW - Request: {
+    "method": "POST",
+    "url": "https://vietjet-api.intelisys.ca/RESTv1/vietjet/reservations/",
+    "body": {
+        "passengers": [
+            {
+                "index": 1,
+                "reservationOwner": true,
+                "reservationStatus": {
+                    "confirmed": true,
+                    "cancelled": false
+                },
+                "fareApplicability": {
+                    "adult": true,
+                    "child": false,
+                    "infant": false
+                },
+                "infants": [],
+                "reservationProfile": {
+                    "lastName": "GRUENBERG",
+                    "firstName": "ERIC IVOR",
+                    "title": "Mr",
+                    "gender": "Male",
+                    "address": {
+                        "address1": "1930 Village Center Cir, 3-3248 Las Vegas, NV",
+                        "address2": "1930 Village Center Cir, 3-3248 Las Vegas, NV",
+                        "city": "",
+                        "location": {
+                            "country": {
+                                "code": "USA"
+                            },
+                            "province": {
+                                "code": ""
+                            },
+                            "postalCode": ""
+                        }
+                    },
+                    "birthDate": "1957-05-28",
+                    "personalContactInformation": {
+                        "phoneNumber": "",
+                        "mobileNumber": "+16506004046",
+                        "faxNumber": "",
+                        "extension": "",
+                        "email": "eric_gruenberg@hotmail.com",
+                        "name": "ERIC IVOR GRUENBERG",
+                        "receivePromoEmail": true
+                    },
+                    "businessContactInformation": {
+                        "phoneNumber": "",
+                        "mobileNumber": "",
+                        "faxNumber": "",
+                        "extension": "",
+                        "email": ""
+                    },
+                    "destinationContactInformation": {
+                        "phoneNumber": "",
+                        "mobileNumber": "",
+                        "faxNumber": "",
+                        "extension": "",
+                        "email": ""
+                    },
+                    "passport": {
+                        "number": "",
+                        "expiryDate": "",
+                        "issuingCountry": {
+                            "code": ""
+                        }
+                    },
+                    "loyaltyProgram": {
+                        "number": ""
+                    }
+                }
+            }
+        ],
+        "journeys": [
+            {
+                "index": 1,
+                "passengerJourneyDetails": [
+                    {
+                        "passenger": {
+                            "index": 1
+                        },
+                        "bookingKey": "g1sKijbsPhuBT67529ruAY3ZNQnEUQNlSsQciINSwcdYBIeYwnfJ4Z2gkivxMd7OM6TkOtEJ9J7UQNfIojF3J6zw1ERJblPokGuW8yOOtaƒ3EJE8ƒfPm4CVMMf8pgQTYH6jƒ0IƒuhYmoUf8dKlHDQƒ2Q1RqjbOXYNs0xpMUNFKo8TrSx7Y5ShV1p9hGOrYUX9D1ehJCCLkcP2eKQooRQGMXwgJeV12VcdYsƒkMxhUcO¥Ahpu9RLpJxxJ3STQdfp4wC3x4OZEgiB7tvGCogpPJJgSvgYBzXpwAnwg3gmPv6bXI3LG3STR0XU363AGNfgZsNrQuyt1kgƒFRZvDYOhVLVEZBI¥TwwcnmzidKfnTck0GZdsXIWtJHDMEUbxD7XWpBvƒKGQ5cWbOat¥ykeLTMNugtOxk8UUBpnoaQEMetuAswLGmDpHUpG9NXhibIxƒXM2CfGGdCXX6QSapop7vp8r4iC1hggfrAI¥BUF7FWApxVgdKqzr8MhY¥W85igIgCf20TmgFB0Xah7Xt3pdjwSAEQ==",
+                        "reservationStatus": {
+                            "confirmed": true,
+                            "waitlist": false,
+                            "standby": false,
+                            "cancelled": false,
+                            "open": false,
+                            "finalized": false,
+                            "external": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "seatSelections": [
+            {
+                "selectionKey": "¥YjT7o1J1VrjGV6Cp34HslMTZJ9QFBq8fO0ROLX9AK¥WqL¥71osU6Q42ivsAVkvPNLQTBSTsT1ELFgS09khshnDV1Z8DPhFKM5q2jg1Oc2zz2GCDVmjnz75ƒBLtsJwd7LSndnmHCyA3qxZiq4Epolrpr2uXrz2c8i66uSgEƒMKWP9mwtVHwPTG4rMe625JQEsUSKQDuƒliND2UxOJY2JIA==",
+                "passenger": {
+                    "index": 1
+                },
+                "journey": {
+                    "index": 1
+                },
+                "segment": {
+                    "index": 1
+                }
+            }
+        ],
+        "ancillaryPurchases": [
+            {
+                "purchaseKey": "yq2CZ1dVlybyxQETDp1D5X94m3Iu0¥ƒIdNy3tSRzghopf6fZrFssJlVVVbrwTMVfqVLmfHS4xAK86QN3CWli3TNmwEXTu4jgWFaxVMƒDxytMkPUB¥gD431BDmioM04GhbskcNPCtgJ6PWU2c0AxtcPwS3c44c8¥MOhCTuizyK0vM0tLAb42HFSfNDcMbBYcvLB4nwnyzVz87BMyv7LadbRn6NecONAqArrOa82VJ9Ss=",
+                "passenger": {
+                    "index": 1
+                },
+                "journey": {
+                    "index": 1
+                }
+            }
+        ],
+        "insurancePolicies": [],
+        "sessionId": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkUxNGVRdU9sYjBTcUNwQWJlNnVCclFLbkV3MzBVTks5dURpRktsaGpmZUpOZHIzQW9YWVJRbzlPY0U2YXBLUHoiLCJpc3MiOiJ2ai13ZWJzaXRlLW1vbml0b3JpbmciLCJpYXQiOjE2ODQ2NDQwNzYsImV4cCI6MTY4NDY0NTg3Nn0.BcnWE7V7ty2Sev_TSw-Zx-LGR1AVtWtVso620pjsLHn6T4CXF61rYwloID2555scqfniEaH64QbrHauCXb6QSNULeVlvXk4TOrDeqofmGPs_68cVJXFuD6-EgYxZVHPWNYzoM_74vHNTStfg9JYW4KgokeYSHATkuuHZiTCKuubWzropLwtXobzDCdUONBesEO4pQZGMRjbSK8hMM9rR8TPepTksverMo8JBj8EDzoRZwCl9r1mBWXa0csIhrdtPNJk83D_6293O2atRUKERHdglwNj79zRD9w-Ecvw6ABTfeqPHSCHd74L6eujTpDQlzX9YtfWhOcOqjSEhLtildg",
+        "paymentTransactions": [
+            {
+                "href": null,
+                "key": null,
+                "paymentTime": "2023-05-21 04:45:48Z",
+                "description": null,
+                "paymentMethod": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/paymentMethods/tfCeB5%C2%A5mircWvs2C4HkDdOXNJf%C6%92NFOopDW2yQCBh2p0iq0n2sRf6tQ1JmwPtW7BTIVvTHMbkZbQeraYEDVJfrA==",
+                    "key": "tfCeB5¥mircWvs2C4HkDdOXNJfƒNFOopDW2yQCBh2p0iq0n2sRf6tQ1JmwPtW7BTIVvTHMbkZbQeraYEDVJfrA==",
+                    "identifier": "PL30"
+                },
+                "paymentMethodCriteria": {
+                    "thirdParty": {
+                        "clientIP": "68.68.32.95",
+                        "language": {
+                            "href": "https://intelisys-api.intelisys.ca/RESTv1/languages/EN",
+                            "code": "EN",
+                            "name": "English CN"
+                        },
+                        "applicationIdentifier": "",
+                        "redirectURL": "",
+                        "postURL": "",
+                        "postData": "",
+                        "reference": ""
+                    }
+                },
+                "currencyAmounts": [
+                    {
+                        "totalAmount": 86.54,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar",
+                            "baseCurrency": false
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    }
+                ],
+                "processingCurrencyAmounts": [
+                    {
+                        "totalAmount": 0,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar",
+                            "baseCurrency": false
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    }
+                ],
+                "payerDescription": null,
+                "receiptNumber": null,
+                "payments": null,
+                "refundTransactions": null,
+                "notes": null
+            }
+        ]
+    },
+    "json": true,
+    "headers": {
+        "Authorization": "Basic VkpBUElXRUI6am9vRWlqb3FnazEwMjglJDk="
+    }
+} - Response: {
+    "statusCode": 201,
+    "body": {
+        "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==",
+        "key": "AKqlh8tSfnQBx7rF3¥xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2¥L9n6EJ9srTI8jbrttAIm3qu1zA==",
+        "number": 147806880,
+        "locator": "AP8ATK",
+        "directParentReservation": null,
+        "subsidiaryReservations": null,
+        "bookingInformation": {
+            "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/bookingInformation/cmeXG%C6%921QIE8CvEPsyQVZl3k2PGsIR36g4eHeDdL3Gr1AQvidBe2cZfb5qlUZj4IIRUEIoTvcJCfR3JHeV%C2%A5MEAd9Bv3qPB0%C2%A5%C6%92Lxj3pz5ADlpgK7VroEKu6XuO7YNw2kFq",
+            "key": "cmeXGƒ1QIE8CvEPsyQVZl3k2PGsIR36g4eHeDdL3Gr1AQvidBe2cZfb5qlUZj4IIRUEIoTvcJCfR3JHeV¥MEAd9Bv3qPB0¥ƒLxj3pz5ADlpgK7VroEKu6XuO7YNw2kFq",
+            "sessionIdentifier": "apiW4b300156-80c1-4c60-ac5e-1baa9988a728",
+            "distributionChannel": {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/distributionChannels/W",
+                "identifier": "W",
+                "description": "Web"
+            },
+            "externalLocators": null,
+            "agency": {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/agencies/i%C6%92Cewcom9IZZ%C6%92JijuFz%C2%A50T0xI6m2ZV045NjzadfGQWI=",
+                "key": "iƒCewcom9IZZƒJijuFz¥0T0xI6m2ZV045NjzadfGQWI=",
+                "iataNumber": "9010",
+                "name": "VJ API WEB"
+            },
+            "company": {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/companies/FaOYlZ7gkfq%C2%A5psSwMsMV%C6%92lpXkn9OmZ9d5wjibKeISU8=",
+                "key": "FaOYlZ7gkfq¥psSwMsMVƒlpXkn9OmZ9d5wjibKeISU8=",
+                "identifier": "9010",
+                "name": "VJ API WEB"
+            },
+            "currency": {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                "code": "USD",
+                "description": "US Dollar"
+            },
+            "contactInformation": {
+                "name": "GRUENBERG, ERIC IVOR",
+                "phoneNumber": "",
+                "extension": "",
+                "email": "eric_gruenberg@hotmail.com",
+                "language": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/languages/vi",
+                    "code": "vi",
+                    "name": "Vietnamese"
+                },
+                "notificationPreferences": null
+            },
+            "creation": {
+                "time": "2023-05-21 04:47:00Z"
+            },
+            "hold": {
+                "overridden": false,
+                "expiryTime": "2023-05-21 05:17:00Z"
+            },
+            "cancellation": null,
+            "lock": null,
+            "bookingType": {
+                "eticketed": false,
+                "groupReserved": false,
+                "frequentFlyerRedeemed": false
+            },
+            "frequentFlyer": null,
+            "notes": "",
+            "groupName": "",
+            "timestamp": "AAAADpQWU3g="
+        },
+        "passengers": [
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                "reference": "WKFO6INE56",
+                "reservationOwner": true,
+                "reservationStatus": {
+                    "confirmed": true,
+                    "cancelled": false
+                },
+                "fareApplicability": {
+                    "adult": true,
+                    "child": false
+                },
+                "passengerTypeCode": null,
+                "reservationProfile": {
+                    "lastName": "GRUENBERG",
+                    "firstName": "ERIC IVOR",
+                    "middleName": "",
+                    "title": "Mr",
+                    "gender": "Male",
+                    "address": {
+                        "address1": "1930 Village Center Cir, 3-3248 Las Vegas, NV",
+                        "address2": "1930 Village Center Cir, 3-3248 Las Vegas, NV",
+                        "city": "",
+                        "location": {
+                            "country": {
+                                "href": "https://vietjet-api.intelisys.ca/RESTv1/countries/USA",
+                                "code": "USA",
+                                "name": "United States"
+                            },
+                            "province": null
+                        },
+                        "postalCode": ""
+                    },
+                    "birthDate": "1957-05-28",
+                    "nationCountry": null,
+                    "personalContactInformation": {
+                        "phoneNumber": "",
+                        "mobileNumber": "+16506004046",
+                        "email": "eric_gruenberg@hotmail.com",
+                        "language": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/languages/vi",
+                            "code": "vi",
+                            "name": "Vietnamese"
+                        },
+                        "notificationPreferences": null
+                    },
+                    "businessContactInformation": {
+                        "phoneNumber": "",
+                        "faxNumber": "",
+                        "extension": ""
+                    },
+                    "destinationContactInformation": null,
+                    "passport": null,
+                    "loyaltyProgram": null,
+                    "preBoard": false,
+                    "status": {
+                        "active": true,
+                        "inactive": false,
+                        "denied": false
+                    },
+                    "reference1": "",
+                    "reference2": "",
+                    "notes": ""
+                },
+                "frequentFlyer": null,
+                "advancePassengerInformation": null,
+                "passengerServiceRequests": [],
+                "passengerCostCenter": null,
+                "infants": [],
+                "passengerGdsNameGroup": null,
+                "weight": null,
+                "notes": "",
+                "timestamp": "AAAADpQWUlY="
+            }
+        ],
+        "journeys": [
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                "departure": {
+                    "scheduledTime": "2023-06-04 08:50:00Z",
+                    "localScheduledTime": "2023-06-04 15:50:00",
+                    "airport": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/airports/HAN",
+                        "code": "HAN",
+                        "name": "Ha Noi",
+                        "utcOffset": {
+                            "iso": "+07:00",
+                            "hours": 7,
+                            "minutes": 420
+                        }
+                    }
+                },
+                "segments": [
+                    {
+                        "key": "SVdwUAdwphLƒjJw9rVQL8TOJD0jugWc¥762Y6xQyUPP2zxJJjyQ¥ƒNS5zTf8FkWLX3gRTZ59c8d2cAdgN34LJQ==",
+                        "flight": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/flights/%C6%92xgH2Ws4sYWI6mrIWrxApLHu9FKLhvVwSI9OZOoix6E=",
+                            "key": "ƒxgH2Ws4sYWI6mrIWrxApLHu9FKLhvVwSI9OZOoix6E=",
+                            "airlineCode": {
+                                "href": "https://vietjet-api.intelisys.ca/RESTv1/airlineCodes/VJ",
+                                "code": "VJ"
+                            },
+                            "flightNumber": "145",
+                            "operatingPartnerCarrier": null,
+                            "operatingPartnerFlightNumber": "",
+                            "aircraftModel": {
+                                "href": "https://vietjet-api.intelisys.ca/RESTv1/aircraftModels/2Qx%C2%A5GKVsZ08KvxdDQkIEb2UIgtzsXA%C2%A5nTWPjXFRE9io=",
+                                "key": "2Qx¥GKVsZ08KvxdDQkIEb2UIgtzsXA¥nTWPjXFRE9io=",
+                                "identifier": "320",
+                                "name": "320"
+                            }
+                        },
+                        "departure": {
+                            "scheduledTime": "2023-06-04 08:50:00Z",
+                            "localScheduledTime": "2023-06-04 15:50:00",
+                            "airport": {
+                                "href": "https://vietjet-api.intelisys.ca/RESTv1/airports/HAN",
+                                "code": "HAN",
+                                "name": "Ha Noi",
+                                "utcOffset": {
+                                    "iso": "+07:00",
+                                    "hours": 7,
+                                    "minutes": 420
+                                }
+                            }
+                        },
+                        "arrival": {
+                            "scheduledTime": "2023-06-04 11:00:00Z",
+                            "localScheduledTime": "2023-06-04 18:00:00",
+                            "airport": {
+                                "href": "https://vietjet-api.intelisys.ca/RESTv1/airports/SGN",
+                                "code": "SGN",
+                                "name": "Ho Chi Minh",
+                                "utcOffset": {
+                                    "iso": "+07:00",
+                                    "hours": 7,
+                                    "minutes": 420
+                                }
+                            }
+                        },
+                        "legs": [
+                            {
+                                "key": "j9EƒkZLf6DQkƒa8DWaƒ5IKNjnq8aPo1zWq6KVlpyOHY=",
+                                "departure": {
+                                    "scheduledTime": "2023-06-04 08:50:00Z",
+                                    "localScheduledTime": "2023-06-04 15:50:00",
+                                    "airport": {
+                                        "href": "https://vietjet-api.intelisys.ca/RESTv1/airports/HAN",
+                                        "code": "HAN",
+                                        "name": "Ha Noi",
+                                        "utcOffset": {
+                                            "iso": "+07:00",
+                                            "hours": 7,
+                                            "minutes": 420
+                                        }
+                                    }
+                                },
+                                "arrival": {
+                                    "scheduledTime": "2023-06-04 11:00:00Z",
+                                    "localScheduledTime": "2023-06-04 18:00:00",
+                                    "airport": {
+                                        "href": "https://vietjet-api.intelisys.ca/RESTv1/airports/SGN",
+                                        "code": "SGN",
+                                        "name": "Ho Chi Minh",
+                                        "utcOffset": {
+                                            "iso": "+07:00",
+                                            "hours": 7,
+                                            "minutes": 420
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "reservationStatus": {
+                            "cancelled": false,
+                            "open": false,
+                            "finalized": false,
+                            "external": false
+                        }
+                    }
+                ],
+                "passengerJourneyDetails": [
+                    {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=/passengerJourneyDetails/WwXcehUljtnq4kkeHJJtCeTJQ%C6%926dGw5eVhETAo3erc%C2%A5VlEAFlQNxbR2n06RFjTAvY3FqSKZrhMEP0NYgFRoNKD%C6%92SJzLyXBFFbTaiBBK%C6%929rCfOdEHJDMv9IoJmtxvIryd",
+                        "key": "WwXcehUljtnq4kkeHJJtCeTJQƒ6dGw5eVhETAo3erc¥VlEAFlQNxbR2n06RFjTAvY3FqSKZrhMEP0NYgFRoNKDƒSJzLyXBFFbTaiBBKƒ9rCfOdEHJDMv9IoJmtxvIryd",
+                        "passenger": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                            "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                        },
+                        "segment": null,
+                        "bookingKey": "g1sKijbsPhuBT67529ruAY3ZNQnEUQNlSsQciINSwcdYBIeYwnfJ4Z2gkivxMd7OM6TkOtEJ9J7UQNfIojF3J6zw1ERJblPokGuW8yOOtaƒ3EJE8ƒfPm4CVMMf8pgQTYH6jƒ0IƒuhYmoUf8dKlHDQƒ2Q1RqjbOXYNs0xpMUNFKqvVdinnmYYLCcJS8YiqGnV6QEM6yFMAJKena¥OdmTydDwsIUL4axoxGRilZLhJƒ667hZƒStmQQRCX8PeT¥rWV6HnHgƒSA6X598bKpCQHlhrwƒRUl9ƒUixoSpWTTrqzdVOGFbVmQZ4uqrKrQTJbHQwAqqJtH9csyzZdHtWl0jUswvRx34rO0g0cmpQfd1¥3P7FyvPXyCd2RACVoDQZtsJEucdXRJƒaQO1ƒWXtYbf69CAFza8jhppDIXEBaSbeVeYs4tYMfxVuGtCE8HnRbyFE1S4TbWJ9keF9tEvdyKlQ39Os271¥mKE3umqP7tolEPbP2Yd5gz0GrY8diw0jtCiMƒzhQi6j7Jsw6rcviVvHMTQnw==",
+                        "fareClass": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/fareClasses/wb4xb3F9Evee1nOH8bSvfUbLkg2Qb70wDBGwTtWfyA4=",
+                            "key": "wb4xb3F9Evee1nOH8bSvfUbLkg2Qb70wDBGwTtWfyA4=",
+                            "code": "W1_DLX",
+                            "description": "Deluxe1"
+                        },
+                        "bookingCode": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/bookingCodes/W",
+                            "code": "W",
+                            "description": "Eco"
+                        },
+                        "cabinClass": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/cabinClasses/Y",
+                            "code": "Y",
+                            "description": "Economy"
+                        },
+                        "realizedRevenue": false,
+                        "shuttle": false,
+                        "privateFares": false,
+                        "ticketNumber": "",
+                        "notes": "",
+                        "reservationStatus": {
+                            "confirmed": true,
+                            "waitlist": false,
+                            "standby": false,
+                            "cancelled": false,
+                            "open": false,
+                            "finalized": false,
+                            "external": false
+                        },
+                        "timestamp": "AAAADpQWUlc="
+                    }
+                ],
+                "reservationStatus": {
+                    "cancelled": false,
+                    "open": false,
+                    "finalized": false,
+                    "external": false
+                }
+            }
+        ],
+        "insurancePolicies": null,
+        "ancillaryPurchases": [
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/ancillaryPurchases/fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8U%C6%92ntGisRxfFI1MvQUR4aYSzI7p0kpkQ1JD%C6%9298p3MdOWHN56mBchM=",
+                "key": "fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8UƒntGisRxfFI1MvQUR4aYSzI7p0kpkQ1JDƒ98p3MdOWHN56mBchM=",
+                "purchaseKey": "yq2CZ1dVlybyxQETDp1D5X94m3Iu0¥ƒIdNy3tSRzghopf6fZrFssJlVVVbrwTMVfqVLmfHS4xAK86QN3CWli3Q3eNegUUg95PX523bE4NxA=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "requirementLocation": {
+                    "date": "2023-06-04",
+                    "airport": null,
+                    "cityPair": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/cityPairs/HAN-SGN",
+                        "identifier": "HAN-SGN"
+                    },
+                    "flight": null
+                },
+                "ancillaryItem": {
+                    "key": "eU9Fu4zikmtsn4VBXmWLNEm¥sXwPmL8¥U4GxoB6j8oM=",
+                    "name": "Bag 20kgs",
+                    "ancillaryCategory": {
+                        "key": "JwSyxxbv9z51Gcƒw6TjYlMCd2GzEmb2nD4TluvSs¥uk=",
+                        "name": "Baggage",
+                        "external": false
+                    },
+                    "serviceRequest": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/serviceRequests/VCdctXmbmONuG8B3JRwIgwUrfdT5qqFQ6jKCoc4xUqA=",
+                        "key": "VCdctXmbmONuG8B3JRwIgwUrfdT5qqFQ6jKCoc4xUqA=",
+                        "code": "PBAB"
+                    },
+                    "serviceRequestNote": ""
+                },
+                "ancillaryRedemption": {
+                    "reference": "",
+                    "status": {
+                        "available": true,
+                        "redeemed": false
+                    }
+                },
+                "timestamp": "AAAADpQWU3k="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/ancillaryPurchases/fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8U%C6%92ntGisRxfFI1MvQUR4aYSzI7p0kpkZzisYRwHIrTT9pb0eQUPWA=",
+                "key": "fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8UƒntGisRxfFI1MvQUR4aYSzI7p0kpkZzisYRwHIrTT9pb0eQUPWA=",
+                "purchaseKey": "yq2CZ1dVlybyxQETDp1D5X94m3Iu0¥ƒIdNy3tSRzghpQE5AyrcWQLKfdanVlTcsD1nOSNAhp5Dpo0JsTp44j82lXkQ38xFhsiGJgxy1pdCs=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "requirementLocation": {
+                    "date": "2023-06-04",
+                    "airport": null,
+                    "cityPair": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/cityPairs/HAN-SGN",
+                        "identifier": "HAN-SGN"
+                    },
+                    "flight": null
+                },
+                "ancillaryItem": {
+                    "key": "eU9Fu4zikmtsn4VBXmWLNFYCHlU3m¥vBJi9q1376ZaM=",
+                    "name": "Deluxe 20kgs",
+                    "ancillaryCategory": {
+                        "key": "JwSyxxbv9z51Gcƒw6TjYlPmjmhef¥ƒ4gQEƒR17tYhuw=",
+                        "name": "Deluxe ancillary",
+                        "external": false
+                    },
+                    "serviceRequest": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/serviceRequests/VCdctXmbmONuG8B3JRwIgwUrfdT5qqFQ6jKCoc4xUqA=",
+                        "key": "VCdctXmbmONuG8B3JRwIgwUrfdT5qqFQ6jKCoc4xUqA=",
+                        "code": "PBAB"
+                    },
+                    "serviceRequestNote": ""
+                },
+                "ancillaryRedemption": {
+                    "reference": "",
+                    "status": {
+                        "available": true,
+                        "redeemed": false
+                    }
+                },
+                "timestamp": "AAAADpQWUvY="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/ancillaryPurchases/fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8U%C6%92ntGisRxfFI1MvQUR4aYSzI7p0kpkaSHIYQa5jyw7uspe25eCZw=",
+                "key": "fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8UƒntGisRxfFI1MvQUR4aYSzI7p0kpkaSHIYQa5jyw7uspe25eCZw=",
+                "purchaseKey": "yq2CZ1dVlybyxQETDp1D5X94m3Iu0¥ƒIdNy3tSRzghqm0ƒnGydC3ctƒZlG6fag4mGREAB5bqF3pBJ4GFtvcDQƒAqF2Tl35cKBEcGZnrdLm8=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "requirementLocation": {
+                    "date": "2023-06-04",
+                    "airport": null,
+                    "cityPair": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/cityPairs/HAN-SGN",
+                        "identifier": "HAN-SGN"
+                    },
+                    "flight": null
+                },
+                "ancillaryItem": {
+                    "key": "eU9Fu4zikmtsn4VBXmWLNGqJcVczYiSKaosZJI3Zpxs=",
+                    "name": "Special Change",
+                    "ancillaryCategory": {
+                        "key": "JwSyxxbv9z51Gcƒw6TjYlEvR4oV2wWoXrVznF¥v2NAs=",
+                        "name": "Special change",
+                        "external": false
+                    },
+                    "serviceRequest": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/serviceRequests/VCdctXmbmONuG8B3JRwIg8clKh6%C6%92Ecp%C2%A5SDzpnm%C6%92w5Jw=",
+                        "key": "VCdctXmbmONuG8B3JRwIg8clKh6ƒEcp¥SDzpnmƒw5Jw=",
+                        "code": "DLXE"
+                    },
+                    "serviceRequestNote": ""
+                },
+                "ancillaryRedemption": {
+                    "reference": "",
+                    "status": {
+                        "available": true,
+                        "redeemed": false
+                    }
+                },
+                "timestamp": "AAAADpQWUvU="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/ancillaryPurchases/fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8U%C6%92ntGisRxfFI1MvQUR4aYSzI7p0kpkTX5Z%C2%A5oS%C6%92acn4p%C6%92P9Xj%C2%A5jC8=",
+                "key": "fooK3HK2KMX94qPzJoQ4uwWedZrjrlQ4I9Et4DiauWlpvmBioKIgPM8UƒntGisRxfFI1MvQUR4aYSzI7p0kpkTX5Z¥oSƒacn4pƒP9Xj¥jC8=",
+                "purchaseKey": "yq2CZ1dVlybyxQETDp1D5X94m3Iu0¥ƒIdNy3tSRzghrVVƒjT62u5RvE3tƒQygyG4v49XW¥¥BRswWvts71AmAjCƒMxANxtQGISHrnxBXKoM4=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "requirementLocation": {
+                    "date": "2023-06-04",
+                    "airport": null,
+                    "cityPair": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/cityPairs/HAN-SGN",
+                        "identifier": "HAN-SGN"
+                    },
+                    "flight": null
+                },
+                "ancillaryItem": {
+                    "key": "eU9Fu4zikmtsn4VBXmWLNCOwƒWz2Z2sDz9bzbFGFQqI=",
+                    "name": "Cabin Bag 7k",
+                    "ancillaryCategory": {
+                        "key": "JwSyxxbv9z51Gcƒw6TjYlAAD2ePIQezLmDqzIS7olDk=",
+                        "name": "Free Service",
+                        "external": false
+                    },
+                    "serviceRequest": {
+                        "href": "https://vietjet-api.intelisys.ca/RESTv1/serviceRequests/VCdctXmbmONuG8B3JRwIg8NQZSNToP1hX95YJL3oiAs=",
+                        "key": "VCdctXmbmONuG8B3JRwIg8NQZSNToP1hX95YJL3oiAs=",
+                        "code": "CBFS"
+                    },
+                    "serviceRequestNote": ""
+                },
+                "ancillaryRedemption": {
+                    "reference": "",
+                    "status": {
+                        "available": true,
+                        "redeemed": false
+                    }
+                },
+                "timestamp": "AAAADpQWUvc="
+            }
+        ],
+        "seatSelections": [
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/seatSelections/iRfZBj7taPIrT6mFp38B5egpwcTJQeHF1ZSopwlws490H%C6%92LYqFV2aT40WTSBa0S08fLeVMdyH3nLnbAzLgw0jJGhD2vV%C2%A5CtaGK7WReJ6lK4=",
+                "key": "iRfZBj7taPIrT6mFp38B5egpwcTJQeHF1ZSopwlws490HƒLYqFV2aT40WTSBa0S08fLeVMdyH3nLnbAzLgw0jJGhD2vV¥CtaGK7WReJ6lK4=",
+                "selectionKey": "¥YjT7o1J1VrjGV6Cp34HslMTZJ9QFBq8fO0ROLX9AK¥WqL¥71osU6Q42ivsAVkvPNLQTBSTsT1ELFgS09khshnDV1Z8DPhFKM5q2jg1Oc2zz2GCDVmjnz75ƒBLtsJwd7LSndnmHCyA3qxZiq4Epolrpr2uXrz2c8i66uSgEƒMKWP9mwtVHwPTG4rMe625JQEsUSKQDuƒliND2UxOJY2JIA==",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "segment": {
+                    "key": "SVdwUAdwphLƒjJw9rVQL8TOJD0jugWc¥762Y6xQyUPP2zxJJjyQ¥ƒNS5zTf8FkWLX3gRTZ59c8d2cAdgN34LJQ==",
+                    "legs": [
+                        {
+                            "key": "j9EƒkZLf6DQkƒa8DWaƒ5IKNjnq8aPo1zWq6KVlpyOHY="
+                        }
+                    ]
+                },
+                "seatMapCell": {
+                    "key": "z9z¥nz4BrMz¥TOjAc7GNdSrsM34EG62BeLAJerlOLBE=",
+                    "rowIdentifier": "4",
+                    "seatIdentifier": "C"
+                },
+                "reservationStatus": {
+                    "confirmed": true,
+                    "open": false
+                },
+                "selectionMethod": {
+                    "auto": false,
+                    "manual": true
+                },
+                "timestamp": "AAAADpQWUx0="
+            }
+        ],
+        "passengerLegDetails": [
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengerLegDetails/WwXcehUljtnq4kkeHJJtCQcPOa7UnYE200enh9XPtDqn%C6%92YkSFGUwNSIXL%C2%A5%C6%92pRMpW3tlqTrksM8sn4byU9Ftq2a93NVr2X%C6%92tUJ9DiSbKg1milnEAfAOaVQZG0%C6%924zuCd9G",
+                "key": "WwXcehUljtnq4kkeHJJtCQcPOa7UnYE200enh9XPtDqnƒYkSFGUwNSIXL¥ƒpRMpW3tlqTrksM8sn4byU9Ftq2a93NVr2XƒtUJ9DiSbKg1milnEAfAOaVQZG0ƒ4zuCd9G",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "segment": {
+                    "key": "SVdwUAdwphLƒjJw9rVQL8TOJD0jugWc¥762Y6xQyUPP2zxJJjyQ¥ƒNS5zTf8FkWLX3gRTZ59c8d2cAdgN34LJQ=="
+                },
+                "leg": {
+                    "key": "j9EƒkZLf6DQkƒa8DWaƒ5IKNjnq8aPo1zWq6KVlpyOHY="
+                },
+                "reservationStatus": {
+                    "confirmed": true,
+                    "waitlist": false,
+                    "standby": false,
+                    "cancelled": false,
+                    "finalized": false,
+                    "external": false
+                },
+                "travelStatus": {
+                    "notCheckedIn": true,
+                    "checkedIn": false,
+                    "boarded": false,
+                    "noshow": false
+                },
+                "boardingSequenceNumber": null,
+                "thru": false,
+                "timestamp": "AAAADpQWUlo="
+            }
+        ],
+        "charges": [
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5JZjYib%C2%A5Yf%C6%92qqpQMTYeAIbBM2AX1BKn4JiYMRm8TWSIs=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥JZjYib¥YfƒqqpQMTYeAIbBM2AX1BKn4JiYMRm8TWSIs=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Airport Tax Domestic",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/AI",
+                    "code": "AI",
+                    "description": "Airport Improvement Fund",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/surcharges/X2fXNzLhG1ZdI6mgOVBri8ETHP1%C2%A5z0ESQynMzbzZtIw=",
+                    "key": "X2fXNzLhG1ZdI6mgOVBri8ETHP1¥z0ESQynMzbzZtIw=",
+                    "identifier": "AXD",
+                    "description": "Airport Tax Domestic"
+                },
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 4.45,
+                        "discountAmount": 0,
+                        "taxAmount": 0,
+                        "taxRateAmounts": [],
+                        "totalAmount": 4.45,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 100000,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong"
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUiA1mqklQBHwTGLN3bf3CMs=",
+                    "key": "TCI54p3owhwgKKHNAwXBUiA1mqklQBHwTGLN3bf3CMs=",
+                    "name": "TAX EXEMPT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUtM="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A57acm%C2%A5wv98qCxBA%C2%A5%C2%A5NWnLrOg9NWGrNOLBLyuHyL32z%C2%A50=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥7acm¥wv98qCxBA¥¥NWnLrOg9NWGrNOLBLyuHyL32z¥0=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "W1_DLX - Deluxe1",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/FA",
+                    "code": "FA",
+                    "description": "Fare",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": null,
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 46.67,
+                        "discountAmount": 0,
+                        "taxAmount": 4.67,
+                        "taxRateAmounts": [
+                            {
+                                "name": "VAT",
+                                "amount": 4.67
+                            }
+                        ],
+                        "totalAmount": 51.34,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 1153900,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong"
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUtQ="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5YbeclhkCjHdjZ%C6%92ii3pxFncK6wnlSQp%C6%92DBaffWCjWrQo=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥YbeclhkCjHdjZƒii3pxFncK6wnlSQpƒDBaffWCjWrQo=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Admin Fee Domestic",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/AM",
+                    "code": "AM",
+                    "description": "Admin Fee",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/surcharges/X2fXNzLhG1ZdI6mgOVBrixqh%C6%92C65iPmepw%C2%A52dlis6%C2%A5w=",
+                    "key": "X2fXNzLhG1ZdI6mgOVBrixqhƒC65iPmepw¥2dlis6¥w=",
+                    "identifier": "AFD",
+                    "description": "Admin Fee Domestic"
+                },
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 9.57,
+                        "discountAmount": 0,
+                        "taxAmount": 0.96,
+                        "taxRateAmounts": [
+                            {
+                                "name": "VAT",
+                                "amount": 0.96
+                            }
+                        ],
+                        "totalAmount": 10.53,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 236500,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong"
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUtU="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5TLvQh0CqPZVK8RFIk8fGbOPNVEePAGhKdpnGW1kfUvo=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥TLvQh0CqPZVK8RFIk8fGbOPNVEePAGhKdpnGW1kfUvo=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Airport Security",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/AS",
+                    "code": "AS",
+                    "description": "Airport Security Scan",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/surcharges/X2fXNzLhG1ZdI6mgOVBri7bCnzberNu3WpKckcRZOT8=",
+                    "key": "X2fXNzLhG1ZdI6mgOVBri7bCnzberNu3WpKckcRZOT8=",
+                    "identifier": "AS",
+                    "description": "Airport Security"
+                },
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 0.89,
+                        "discountAmount": 0,
+                        "taxAmount": 0,
+                        "taxRateAmounts": [],
+                        "totalAmount": 0.89,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 20000,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong"
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUiA1mqklQBHwTGLN3bf3CMs=",
+                    "key": "TCI54p3owhwgKKHNAwXBUiA1mqklQBHwTGLN3bf3CMs=",
+                    "name": "TAX EXEMPT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUtY="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5%C2%A5LOaI22g%C6%92i7fdQdoFgF49Y0XnSSs1alpfzKdUT9zR7s=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥¥LOaI22gƒi7fdQdoFgF49Y0XnSSs1alpfzKdUT9zR7s=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Management Fee",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/MF",
+                    "code": "MF",
+                    "description": "Management Fee",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/surcharges/X2fXNzLhG1ZdI6mgOVBri34PdCrKbRzAYAvtMR5Qkaw=",
+                    "key": "X2fXNzLhG1ZdI6mgOVBri34PdCrKbRzAYAvtMR5Qkaw=",
+                    "identifier": "MF",
+                    "description": "Management Fee"
+                },
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 9.57,
+                        "discountAmount": 0,
+                        "taxAmount": 0.96,
+                        "taxRateAmounts": [
+                            {
+                                "name": "VAT",
+                                "amount": 0.96
+                            }
+                        ],
+                        "totalAmount": 10.53,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 236500,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong"
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUtc="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5uUQE%C6%92VHHLDMuqP%C6%92pzuTJw55Rmr1Xywz8ipWPQ9B6frc=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥uUQEƒVHHLDMuqPƒpzuTJw55Rmr1Xywz8ipWPQ9B6frc=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Add Ons(1) - Special Change",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/SR",
+                    "code": "SR",
+                    "description": "SSR",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": null,
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 0,
+                        "discountAmount": 0,
+                        "taxAmount": 0,
+                        "taxRateAmounts": [],
+                        "totalAmount": 0,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUvE="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5u3442iq%C6%92e2UTgaeChTh0ouIPG64z9We%C2%A5Eu7TE0Atr2g=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥u3442iqƒe2UTgaeChTh0ouIPG64z9We¥Eu7TE0Atr2g=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Add Ons(2) - Deluxe 20kgs",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/SR",
+                    "code": "SR",
+                    "description": "SSR",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": null,
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 0,
+                        "discountAmount": 0,
+                        "taxAmount": 0,
+                        "taxRateAmounts": [],
+                        "totalAmount": 0,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUvI="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A58ydsvDcfXK%C2%A5RMdPXG9vLmjVZomxTKqUHY9nn%C2%A5jF3Xyc=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥8ydsvDcfXK¥RMdPXG9vLmjVZomxTKqUHY9nn¥jF3Xyc=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Add Ons(3) - Cabin Bag 7k",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/SR",
+                    "code": "SR",
+                    "description": "SSR",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": null,
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 0,
+                        "discountAmount": 0,
+                        "taxAmount": 0,
+                        "taxRateAmounts": [],
+                        "totalAmount": 0,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWUvM="
+            },
+            {
+                "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/charges/Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC%C2%A5xCqmALgoNg35PrSphcJdi12adYajzIARo8lubYvRff4=",
+                "key": "Hm4kRrUOQubXzfVX9qNB4M65jczQrlSsGjo016vWCZX0l7bOHBBwxhgG6Y8fgdC¥xCqmALgoNg35PrSphcJdi12adYajzIARo8lubYvRff4=",
+                "passenger": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/passengers/WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv%C2%A5rn4U1%C6%92ddN5hDbmpSRXVIEtEgoHL0YZRSHChI=",
+                    "key": "WwXcehUljtnq4kkeHJJtCT18T6U9OBZdUiYwTLrQANyux7ORofe9oYDgplYPxkTVmnhkSv¥rn4U1ƒddN5hDbmpSRXVIEtEgoHL0YZRSHChI="
+                },
+                "journey": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/reservations/AKqlh8tSfnQBx7rF3%C2%A5xvOpOAH8PmH5JS66YoKgK4ZqLYE6BSvhZEcApE3V2%C2%A5L9n6EJ9srTI8jbrttAIm3qu1zA==/journeys/3j0CrSXmjkCS2yH4ciTA3ZhKB9dl%C6%92svoelrOBy4Fs9eDOrUgjnr3iUIZeJIX%C6%92SnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA=",
+                    "key": "3j0CrSXmjkCS2yH4ciTA3ZhKB9dlƒsvoelrOBy4Fs9eDOrUgjnr3iUIZeJIXƒSnSnUAnBYroZq8JqgMrV3NUCIswcYJUzDkfE2pTMiCifhA="
+                },
+                "chargeTime": "2023-05-21 04:47:00Z",
+                "description": "Add Ons(1) - Bag 20kgs",
+                "chargeType": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/chargeTypes/SR",
+                    "code": "SR",
+                    "description": "SSR",
+                    "feeCategory": null,
+                    "index": 0
+                },
+                "surcharge": null,
+                "currencyAmounts": [
+                    {
+                        "baseAmount": 8,
+                        "discountAmount": 0,
+                        "taxAmount": 0.8,
+                        "taxRateAmounts": [
+                            {
+                                "name": "VAT",
+                                "amount": 0.8
+                            }
+                        ],
+                        "totalAmount": 8.8,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar"
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 197797.6,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong"
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "taxConfiguration": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/taxConfigurations/TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "key": "TCI54p3owhwgKKHNAwXBUrYLgtYlbC8emRYgbE8w3O8=",
+                    "name": "VAT"
+                },
+                "status": {
+                    "active": true,
+                    "historical": false,
+                    "pending": false
+                },
+                "discount": null,
+                "refundable": true,
+                "privateFares": false,
+                "notes": "",
+                "timestamp": "AAAADpQWU3c="
+            }
+        ],
+        "paymentTransactions": [
+            {
+                "href": null,
+                "key": null,
+                "paymentTime": null,
+                "description": null,
+                "paymentMethod": {
+                    "href": "https://vietjet-api.intelisys.ca/RESTv1/paymentMethods/tfCeB5%C2%A5mircWvs2C4HkDdOXNJf%C6%92NFOopDW2yQCBh2p0iq0n2sRf6tQ1JmwPtW7BTIVvTHMbkZbQeraYEDVJfrA==",
+                    "key": "tfCeB5¥mircWvs2C4HkDdOXNJfƒNFOopDW2yQCBh2p0iq0n2sRf6tQ1JmwPtW7BTIVvTHMbkZbQeraYEDVJfrA==",
+                    "identifier": "PL30"
+                },
+                "paymentMethodCriteria": {},
+                "currencyAmounts": [
+                    {
+                        "totalAmount": 86.54,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/USD",
+                            "code": "USD",
+                            "description": "US Dollar",
+                            "baseCurrency": false
+                        },
+                        "exchangeRate": 0.000044489923032433154
+                    },
+                    {
+                        "totalAmount": 0,
+                        "currency": {
+                            "href": "https://vietjet-api.intelisys.ca/RESTv1/currencies/VND",
+                            "code": "VND",
+                            "description": "Vietnam Dong",
+                            "baseCurrency": true
+                        },
+                        "exchangeRate": 1
+                    }
+                ],
+                "payerDescription": null,
+                "receiptNumber": null,
+                "payments": null,
+                "refundTransactions": null,
+                "notes": null
+            }
+        ],
+        "eTickets": [],
+        "eMiscellaneousDocuments": []
+    },
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "55915",
+        "connection": "close",
+        "date": "Sun, 21 May 2023 04:46:53 GMT",
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "expires": "-1",
+        "x-aspnet-version": "4.0.30319",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-typeoptions": "nosniff",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 6b412795189620b2bd513604239f4f2e.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "SIN52-C3",
+        "x-amz-cf-id": "Y4EhYFJ7yZLeF_jFaAM5bcd-I9xjzGHCwEI3_coD8kZ1G580WVJggQ=="
+    },
+    "request": {
+        "uri": {
+            "protocol": "https:",
+            "slashes": true,
+            "auth": null,
+            "host": "vietjet-api.intelisys.ca",
+            "port": 443,
+            "hostname": "vietjet-api.intelisys.ca",
+            "hash": null,
+            "search": null,
+            "query": null,
+            "pathname": "/RESTv1/vietjet/reservations/",
+            "path": "/RESTv1/vietjet/reservations/",
+            "href": "https://vietjet-api.intelisys.ca/RESTv1/vietjet/reservations/"
+        },
+        "method": "POST",
+        "headers": {
+            "Authorization": "Basic VkpBUElXRUI6am9vRWlqb3FnazEwMjglJDk=",
+            "accept": "application/json",
+            "content-type": "application/json",
+            "content-length": 4294
+        }
+    }
+}
+@timestamp	
+1684644413644
